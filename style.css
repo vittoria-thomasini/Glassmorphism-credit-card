@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body{
@@ -96,6 +96,7 @@ width: 480px;
     color: #CDBFD8;
     padding-left: 20px;
 }
+
 .info_submit button{
     width: 120px;
     height: 60px;
@@ -112,6 +113,7 @@ width: 480px;
     right: 10px;
     color:white;
 } 
+
 .info_card .card{
     width: 500px;
     height: 300px;
@@ -151,19 +153,22 @@ width: 480px;
 
 .card_title h2{
     font-family: Lato, sans-serif;
-    font-style:normal;
-    font-weight: normal;
+    font-style: thin 100;
+    font-weight: lighter;
     font-style: 20px;
-    line-height: 30px;
+    line-height: 20px;
     color: white;
     margin-top:0;
     margin-bottom: 46px;
 }
 
+.card_chip {
+    margin-bottom: 45px;
+}
+
 .card_chip img{
     width: 60px;
-    width: 43px;
-    margin-bottom: 45px;
+    height: 43px;
 }
 
 .card_footer {
@@ -174,35 +179,41 @@ width: 480px;
 .card_footer div:nth-child(2){
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
-.card_footer .card_footer_info p{
+
+.card_footer_info p{
     font-family: Lato, sans-serif;
     font-style: normal;
     font-weight: normal;
     color:white;
     margin:0;
-    font-size:20px;
-    line-height: 30px;
-}
-
-.card_footer .card_footer_info p:first-child{
-    margin: 8px;
-}
-.footer-text{
-    font-family: Lato, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    color:white;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-size: 16px;
-    line-height: 18px;
-
-}
-.footer-text--cvv{
-    letter-spacing: 0.07em;
     font-size: 20px;
     line-height: 30px;
+    letter-spacing: 0.07em;
+}
 
+.card_footer_info p:first-child{
+    margin-bottom: 8px;
+    letter-spacing: 0.07em;
+}
+
+.card_footer_info p:last-child {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.card_footer_date {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: white;
+    margin-top: 20px;
 }
